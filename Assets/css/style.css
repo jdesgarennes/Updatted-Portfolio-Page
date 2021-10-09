@@ -1,0 +1,188 @@
+/* This section for vsariables  */
+:root {
+
+    --Textbox: gainsboro;
+    --FontSize: 24px;
+}
+
+/* END of section for variables  */
+
+/* SECTION for all of the styles for header and nav links going to use flexbox for alignment */
+header {
+background-color:rgb(179, 175, 166);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: baseline;
+align-items: flex-end;
+border: solid 3px;
+}
+
+.name {
+    border: solid 1px;
+    font-weight: 700;
+    padding: 1%;
+    margin: 1%;
+    text-decoration: underline;
+    background-color: var(--Textbox);    
+}
+
+.links {
+    border: solid 1px;
+    border-radius: 10%;
+    font-weight: 700;
+    padding: 1%;
+    margin: 1%;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: var(--Textbox);    
+}
+
+main{
+    background-color: darkgray;
+    
+    
+}
+/* This will be the About containiner in the main element */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    
+}
+
+.about h1 {
+    border-right: black;
+    text-decoration: underline;
+    text-align: right;
+    font-size: var(--FontSize);
+    background-color: var(--Textbox);
+    padding: 1px;
+    border-right: solid 5px;
+    width: 15%;
+
+}
+
+.about p {
+    margin: 1%;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 60%
+}
+
+.about p img {
+    border: solid 1px;
+    width:200px;
+    height:200px;
+}
+/* End of About container */
+
+/* begining of work Container */
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    justify-content: stretch;
+    align-items: flex-start; 
+     
+}
+
+.work h1{
+    border-right: black;
+    text-decoration: underline;
+    text-align: right;
+    font-size: var(--FontSize);
+    background-color: var(--Textbox);
+    padding: 1px;
+    border-right: solid 5px;
+    width: 15%;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+    gap: 10px;
+}
+
+
+    
+.text-block1{
+    position:relative;
+    bottom: 80%;
+    right: -1%;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block{
+    position:relative;
+    bottom: 90%;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ .project1{
+    width: 100%;
+    transition: transform .2s;
+}
+.project1:hover{
+    transform: scale(1.1); 
+}
+.projects{
+    width:46%;
+    margin: 1%;
+    transition: transform .2s;
+}
+
+.projects:hover{
+    transform: scale(1.1); 
+}
+
+  #cr{
+    
+    width:100%;
+    margin: 1%;
+   
+}
+/* beginning of contact containers */
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+#contact{
+    border-right: black;
+    text-decoration: underline;
+    text-align: right;
+    font-size: var(--FontSize);
+    background-color: var(--Textbox);
+    padding: 1px;
+    border-right: solid 5px;
+    width: 15%;
+
+}
+.parentcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+.info{
+    margin: 1%;
+    
+}
